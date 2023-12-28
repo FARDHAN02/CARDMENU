@@ -1,0 +1,47 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+background-color: #dcdcdc;
+}
+.container{
+  display: flex;
+
+}
+.card{
+  background-color: whitesmoke;
+  width :33.3%; 
+  margin: 1rem;
+}
+.card-title{ 
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+.card-img{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.card-img img{
+  width:100%;
+  
+}
+
+.card-desc{
+  padding: 20px;
+}
+.button{
+  width: 100%;
+  text-align: center;
+  background-color: lightgreen;
+  padding: 10px;
+  transition: 0.2s;
+  cursor:pointer;
+}
+
+.button:hover{
+  background-color: lightgray;
+  
+}
